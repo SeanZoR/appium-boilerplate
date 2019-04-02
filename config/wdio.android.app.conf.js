@@ -17,9 +17,9 @@ config.capabilities = [
     {
         // The defaults you need to have in your config
         automationName: 'UiAutomator2',
-        deviceName: 'Pixel_8.1',
+        deviceName: 'dummy',
         platformName: 'Android',
-        platformVersion: '8.1',
+        // platformVersion: '8.1',
         orientation: 'PORTRAIT',
         maxInstances: 1,
         app: join(process.cwd(), './apps/Android-NativeDemoApp-0.2.1.apk'),
